@@ -1,0 +1,19 @@
+description "word-processor-like editor\377";
+
+uses
+	CtrlLib,
+	plugin/jpg,
+	utilfuncs;
+
+file
+	wordprocctrl.h,
+	wordprocctrl.cpp,
+	wordprocctrl.iml,
+	wordprocctrl.t,
+	wordprocctrl.lay,
+	wpeditor.h,
+	wpeditor.cpp;
+
+mainconfig
+	"" = "GUI";
+
